@@ -1,0 +1,29 @@
+<---------------------------------Hadoop Installation---------------------------------------->
+Step-1:-
+	Download the Virutal box and install it.
+
+Step-2:-
+	Download the hadoop-core-1.2.1 file
+
+Step-3:-
+	Download Haddop training file (HadoopTraining_v1.0)
+
+Step-4:-
+	Open virtual box and in the top left corner you can the option "file" click it
+		file>ImportAppliance (and browse the hadoop traning file and click next and then import)
+
+Step-5:-
+	Now the hadoop is installed in the Virtual box now open the virtual box select Hadoop and then click "start"
+
+Step-6:-
+	If it asks for the username and password 
+		Username:- hadoop
+		Password:- hadoop
+
+Step-7:- To start the hadoop environment open the terminal and type the following command
+		" startCDH.sh"
+
+Step-8 : If it says that safemode should be off then press ctrl+c and type the command "hdfs dfsadmin -safemode leave" and 
+	 use the command "startCDH.sh"
+
+Step-9 : The complete list of commands are available in the Presentation
